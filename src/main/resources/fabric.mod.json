@@ -1,0 +1,20 @@
+{
+	"schemaVersion": 1,
+	"id": "truthorlie",
+	"version": "${version}",
+	"name": "Wahr oder Lüge",
+	"description": "Multiplayer-Minispiel: Alle werden zufällig verteilt, ziehen WAHR oder LÜGE, erzählen ihre Story - die anderen raten. Mit Punkten, HUD und Commands.",
+	"authors": ["Dein Team"],
+	"license": "MIT",
+	"environment": "*",
+	"entrypoints": {
+		"main": ["de.truthorlie.TruthOrLieMod"],
+		"client": ["de.truthorlie.client.TruthOrLieClient"]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.0",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
